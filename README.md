@@ -4,11 +4,43 @@
 
 
 
+[TOC]
+
+
+
 ## 1. UI
 
-### 1.1 Image customization
+### 1.1 Button
 
-#### 1.1.1 CircleImageView 
+#### 1.1.1 android-circlebutton
+
+> * **Homepage:**
+>
+>   https://github.com/markushi/android-circlebutton
+>
+> <br/>
+>
+> * **Use(app/build.gradle):**
+>
+>   ```groovy
+>   repositories {
+>       mavenCentral()
+>       mavenLocal()
+>   }
+>
+>   ...
+>
+>   dependencies {
+>       implementation 'com.github.markushi:circlebutton:1.1'
+>   }
+>   ```
+
+<br/>
+
+
+### 1.2 Image customization
+
+#### 1.2.1 CircleImageView 
 
 > * **Homepage:**
 >
@@ -16,12 +48,11 @@
 >
 > <br/>
 >
-> * **Use(app/build.gradle)：**
+> * **Use(app/build.gradle):**
 >
 >   ```groovy
 >   dependencies {
->   ...
->   implementation 'de.hdodenhof:circleimageview:2.2.0'
+>   	implementation 'de.hdodenhof:circleimageview:2.2.0'
 >   }
 >   ```
 >
@@ -33,9 +64,9 @@
 
 <br/>
 
-### 1.2 Menu
+### 1.3 Menu
 
-#### 1.2.1 BoomMenu
+#### 1.3.1 BoomMenu
 
 > * **Homepage:**
 >
@@ -43,20 +74,62 @@
 >
 > <br/>
 >
-> * **Use(app/build.gradle)：**
+> * **Use(app/build.gradle):**
 >
 >   ```groovy
 >   dependencies {
->     compile 'com.nightonke:boommenu:2.1.1'
+>     implementation 'com.nightonke:boommenu:2.1.1'
 >   }
 >   ```
 >
+
+<br/>
+
+### 1.4 Bottom Navigation Bar
+
+#### 1.4.1 BottomNavigation
+
+> * **Homepage:**
+>
+>   https://github.com/Ashok-Varma/BottomNavigation
+>
 > <br/>
+>
+> * **Use(app/build.gradle):**
+>
+>   ```groovy
+>   dependencies {
+>     implementation 'com.ashokvarma.android:bottom-navigation-bar:2.1.0'
+>   }
+>   ```
+
+<br/>
+
+### 1.5 Immersion Status Bar
+
+#### 1.5.1 ImmersionBar
+
+> * **Homepage:**
+>
+>   https://github.com/gyf-dev/ImmersionBar
+>
+> <br/>
+>
+> * **Use(app/build.gradle):**
+>
+>   ```groovy
+>   dependencies {
+>     implementation 'com.gyf.immersionbar:immersionbar:2.3.2-beta01'
+>   }
+>   ```
+
+<br/>
+
+
 
 
 
 <br/>
-
 
 
 <br/>
@@ -65,23 +138,45 @@
 
 ## 2. network
 
+### 2.1 retrofit
+
+> * **Homepage:**
+>
+>   https://github.com/square/retrofit
+>
+> <br/>
+>
+> * **Use(app/build.gradle):**
+>
+>   ```groovy
+>   dependencies {
+>     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+>   }
+>   ```
+>
+>   ​
+
+<br/>
+
+
+
+<br/>
 
 <br/>
 
 ***
 
-## 
 
 ## 3. Image Load
 
-### 3.1 Glide
-> * **Homepage：**
+### 3.1 glide
+> * **Homepage:**
 >
 >   https://github.com/bumptech/glide
 >
 > <br/>
 >
-> * **Use(app/build.gradle)：**
+> * **Use(app/build.gradle):**
 >
 >   ```groovy
 >   repositories {
@@ -106,7 +201,7 @@
 
 
 ## 4. Image Processing
-### 4.1 Cropper
+### 4.1 cropper
 
 > * **Homepage:**
 >
@@ -114,7 +209,7 @@
 >
 > <br/>
 >
-> * **Use(app/build.gradle)：**
+> * **Use(app/build.gradle):**
 >
 >   ```groovy
 >   repositories {
@@ -122,7 +217,7 @@
 >   }
 >
 >   dependencies {
->     compile 'com.edmodo:cropper:1.0.1'
+>     implementation 'com.edmodo:cropper:1.0.1'
 >   }
 >
 >   ```
@@ -133,3 +228,47 @@
 >   This is a rather old clipping library, and UI definition is not high. The only advantage is that it is stable, efficient, and the cropped image returns Bitmap format, which makes subsequent operations more convenient.
 >
 >
+
+<br/>
+
+<br/>
+
+***
+
+
+
+## 5. Dependency Injection 
+
+### 5.1 butterknife
+
+> * **Homepage:**
+>
+>   https://github.com/JakeWharton/butterknife
+>
+> <br/>
+>
+> * **Use(app/build.gradle):**
+>
+>   ```groovy
+>   dependencies {
+>     implementation 'com.jakewharton:butterknife:9.0.0-rc1'
+>     annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc1'
+>   }
+>   ```
+>
+> <br/>
+>
+> * **Description:**
+>
+>   Field and method binding for Android views which uses annotation processing to generate boilerplate code for you.
+>
+>   ​
+
+
+
+<br/>
+
+<br/>
+
+***
+
