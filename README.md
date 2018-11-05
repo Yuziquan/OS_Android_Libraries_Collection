@@ -124,6 +124,30 @@
 
 <br/>
 
+### 1.6 Pull Up Load & Pull Down Refresh
+
+#### 1.6.1 SmartRefreshLayout
+
+> * **Homepage:**
+>
+>   https://github.com/scwang90/SmartRefreshLayout
+>
+> <br/>
+>
+> * **Use(app/build.gradle):**'
+>
+>   ```groovy
+>   dependencies {
+>   	implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
+>   	implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'//If you use the special Header
+>   	implementation 'com.android.support:appcompat-v7:25.3.1'
+>   }
+>   ```
+>
+>   ​
+
+
+
 
 
 
