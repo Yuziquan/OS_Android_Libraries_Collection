@@ -4,7 +4,6 @@
 
 
 
-[TOC]
 
 
 
@@ -38,7 +37,7 @@
 <br/>
 
 
-### 1.2 Image customization
+### 1.2 Image Customization
 
 #### 1.2.1 CircleImageView 
 
@@ -136,7 +135,7 @@
 
 ***
 
-## 2. network
+## 2. Network
 
 ### 2.1 retrofit
 
